@@ -1,0 +1,14 @@
+# Python cache
+**/__pycache__
+**/ipynb_checkpoints
+**/.vscode
+**/.DS_Store
+
+# Environment variables
+**/.env
+
+# Virtual environments
+**/venv
+
+# safe-control-gym directory (will be downloaded as part of setup)
+safe-control-gym
