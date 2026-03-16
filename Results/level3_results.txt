@@ -1,0 +1,66 @@
+====================================================================
+LEVEL 3: LLM + Robust MPC (Final) | Env: cartpole
+Seed: 42 | Wind: 40-80 | Magnitude: 0.4
+====================================================================
+Step   0            | LLM:+0.050 -> RMPC:+1.000 | Pole:+0.0359 | V:0
+[Info] Environment reset at step 0
+Step  10            | LLM:+0.050 -> RMPC:+0.249 | Pole:+0.0206 | V:0
+Step  20            | LLM:+0.050 -> RMPC:+0.089 | Pole:+0.0129 | V:0
+Step  30            | LLM:+0.050 -> RMPC:+0.051 | Pole:+0.0082 | V:0
+Step  40 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.040 | Pole:+0.0057 | V:0
+Step  41 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.039 | Pole:+0.0056 | V:0
+Step  42 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.039 | Pole:+0.0054 | V:0
+Step  43 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.039 | Pole:+0.0053 | V:0
+Step  44 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0052 | V:0
+Step  45 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0051 | V:0
+Step  46 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0050 | V:0
+Step  47 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0049 | V:0
+Step  48 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0048 | V:0
+Step  49 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0047 | V:0
+Step  50 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0046 | V:0
+Step  51 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0046 | V:0
+Step  52 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0045 | V:0
+Step  53 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0045 | V:0
+Step  54 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.038 | Pole:+0.0044 | V:0
+Step  55 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.048 | Pole:+0.0044 | V:0
+Step  56 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.046 | Pole:+0.0043 | V:0
+Step  57 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.044 | Pole:+0.0043 | V:0
+Step  58 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.043 | Pole:+0.0043 | V:0
+Step  59 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.041 | Pole:+0.0042 | V:0
+Step  60 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.030 | Pole:+0.0042 | V:0
+Step  61 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.032 | Pole:+0.0042 | V:0
+Step  62 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.033 | Pole:+0.0042 | V:0
+Step  63 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.035 | Pole:+0.0042 | V:0
+Step  64 <<<WIND>>> | LLM:+0.050 -> RMPC:+0.036 | Pole:+0.0042 | V:0
+Step  65 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.047 | Pole:+0.0042 | V:0
+Step  66 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.045 | Pole:+0.0042 | V:0
+Step  67 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.044 | Pole:+0.0042 | V:0
+Step  68 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.043 | Pole:+0.0042 | V:0
+Step  69 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.043 | Pole:+0.0042 | V:0
+Step  70 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0042 | V:0
+Step  71 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0042 | V:0
+Step  72 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0042 | V:0
+Step  73 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.041 | Pole:+0.0042 | V:0
+Step  74 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.041 | Pole:+0.0042 | V:0
+Step  75 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0042 | V:0
+Step  76 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0042 | V:0
+Step  77 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0042 | V:0
+Step  78 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0043 | V:0
+Step  79 <<<WIND>>> | LLM:+0.100 -> RMPC:+0.042 | Pole:+0.0043 | V:0
+Step  80            | LLM:+0.100 -> RMPC:+0.043 | Pole:+0.0043 | V:0
+Step  90            | LLM:+0.100 -> RMPC:+0.055 | Pole:+0.0047 | V:0
+Step 100            | LLM:+0.100 -> RMPC:+0.054 | Pole:+0.0052 | V:0
+Step 110            | LLM:+0.200 -> RMPC:+0.062 | Pole:+0.0055 | V:0
+Step 120            | LLM:+0.200 -> RMPC:+0.058 | Pole:+0.0057 | V:0
+Step 130            | LLM:+0.100 -> RMPC:+0.043 | Pole:+0.0061 | V:0
+Step 140            | LLM:+0.100 -> RMPC:+0.074 | Pole:+0.0070 | V:0
+Step 150            | LLM:+0.200 -> RMPC:+0.106 | Pole:+0.0080 | V:0
+Step 160            | LLM:+0.200 -> RMPC:+0.092 | Pole:+0.0086 | V:0
+Step 170            | LLM:+0.500 -> RMPC:+0.156 | Pole:+0.0092 | V:0
+Step 180            | LLM:+0.200 -> RMPC:+0.032 | Pole:+0.0089 | V:0
+Step 190            | LLM:+0.200 -> RMPC:+0.048 | Pole:+0.0094 | V:0
+====================================================================
+RESULTS
+Total violations: 0
+Violation steps: none
+====================================================================
