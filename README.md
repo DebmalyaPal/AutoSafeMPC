@@ -1,34 +1,6 @@
 # UCSD-WI26-CSE203B-Convex-Optimization-Project-
 Guaranteed Safety in Agentic Planning: Coupling Large Language Models (LLM) with Robust Model Predictive Control (MPC)
 
-
-SETups Step:
-```bash
-conda create -n ams python=3.10
-conda activate ams
-
-pip install -r requirements.txt
-
-git clone https://github.com/Stanford-ILIAD/safe-control-gym.git
-cd safe-control-gym
-
-pip install -e .
-
-
-# if problem with pybullet
-conda install -c conda-forge pybullet
-
-conda install -c anaconda gmp
-
-(optional) Additional requirements for MPC
-You may need to separately install acados for fast MPC implementations.
-
-To build and install acados, see their installation guide.
-To set up the acados python interface, check out these installation steps.
-
-https://docs.acados.org/installation/index.html
-```
-
 ---
 
 ## The Three Levels
@@ -120,12 +92,40 @@ normal conditions here since W_MAX = 0.35 > WIND_MAGNITUDE = 0.30.
 ## Setup
 
 ```bash
-conda activate asm
+conda create -n ams python=3.10
+conda activate ams
+
+pip install -r requirements.txt
+
+# Clone safe-control-gym
+git clone https://github.com/Stanford-ILIAD/safe-control-gym.git
+
+cd safe-control-gym
+
+# Install safe-control-gym dependencies
+pip install -e .
+
+# if problem with pybullet
+conda install -c conda-forge pybullet
+
+conda install -c anaconda gmp
+
+# Install AutoSafeMPC dependencies
+cd ..
+pip install -r requirements.txt
 ```
 
-Create a `.env` file in the project root:
+> (optional) Additional requirements for MPC
+> You may need to separately install acados for fast MPC implementations.
+> To build and install acados, see their installation guide.
+> To set up the acados python interface, check out these installation steps.
+
+> https://docs.acados.org/installation/index.html
+
+
+Create a `.env` file in the project root (follow `.env.sample`):
 ```
-ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxx
+API_KEY=your_api_key
 ```
 
 Run each level:

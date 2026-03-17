@@ -1,2 +1,5 @@
 python-dotenv
 openai
+groq
+cvxpy
+matplotlib
